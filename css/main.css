@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf)
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf)
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf)
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf)
+}
+
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #666;
+    height: 100%;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none
+}
+
+a:hover {
+    color: #e5e5e5;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 500;
+    margin: 0
+}
+
+.p-t-50 {
+    padding-top: 50px
+}
+
+.p-t-55 {
+    padding-top: 55px
+}
+
+.p-b-9 {
+    padding-bottom: 9px
+}
+
+.p-b-10 {
+    padding-bottom: 10px
+}
+
+.p-b-35 {
+    padding-bottom: 35px
+}
+
+.p-b-50 {
+    padding-bottom: 50px
+}
+
+.p-b-60 {
+    padding-bottom: 60px
+}
+
+.p-b-82 {
+    padding-bottom: 82px
+}
+
+.p-l-15 {
+    padding-left: 15px
+}
+
+.p-r-15 {
+    padding-right: 15px
+}
+
+.flex-w, .flex-c, .flex-col-c, .flex-col-c-m, .flex-col-c-sb {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.flex-w {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.flex-c {
+    justify-content: center
+}
+
+.flex-col-c {
+    -ms-align-items: center;
+    align-items: center
+}
+
+.flex-col-c-m {
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center
+}
+
+.flex-col-c-sb {
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center
+}
+
+.flex-col-c, .flex-col-c-m, .flex-col-c-sb {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column
+}
+
+.container {
+    max-width: 1200px
+}
+
+.s1-txt1 {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #7d8da6;
+    line-height: 1;
+    text-transform: uppercase
+}
+
+.s1-txt3 {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #ccc;
+    line-height: 1.4
+}
+
+.l1-txt1 {
+    font-family: Montserrat-Black;
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase
+}
+
+.l1-txt2 {
+    font-family: Montserrat-Light;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2
+}
+
+.l1-txt3 {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #555;
+    line-height: 1
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.size1 {
+    width: 100%;
+    min-height: 100vh
+}
+
+.size2 {
+    width: 90px;
+    height: 90px
+}
+
+.bg-g1 {
+    background: #7918f2;
+    background: -webkit-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+    background: -o-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+    background: -moz-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+    background: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff)
+}
+
+.how-countdown {
+    background-color: #fff;
+    border-radius: 18px;
+    margin: 0 18px 25px
+}
+
+@media (max-width: 576px) {
+    .respon1 {
+        padding-top: 35px
+    }
+}
